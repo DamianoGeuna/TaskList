@@ -6,6 +6,9 @@
 /** */ //commento con due asterischi= documentazione di php, funzione di php.
 //apre un file formato JSON e lo converte in array associativo.
 
+// NOTA: test si lancia da cartella lib
+
+
 function JSONreader(string $filepath) //punto interrogativo indica nullo o array
 //visto che php non è tipizzato, meglio dichiarare il tipo, così in caso di problemi si attiva
 {   
